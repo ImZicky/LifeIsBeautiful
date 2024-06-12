@@ -14,14 +14,38 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/LovedbytheKing-Regular.ttf",
+            "./assets/fonts/LoveLight-Regular.ttf",
+            "./assets/fonts/LoveYaLikeASister-Regular.ttf"
+          ]
+        }
+      ]
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.imzicky.lifeisbeautiful"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ef8ead4-d6e3-40a4-8bc6-bedb0e35dc03"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0ef8ead4-d6e3-40a4-8bc6-bedb0e35dc03"
     }
   }
 }
